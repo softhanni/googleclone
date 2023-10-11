@@ -1,0 +1,111 @@
+body{
+   background-color: black;
+    color: white;
+    position: relative;
+}
+.dots{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50px; 
+    margin-right: 20px;
+}
+
+
+.nav img{
+    
+    width: 40px;
+    height: 40px;
+    border-radius:50px;
+   
+}
+.nav a{
+    width: 80px;
+    height: 50px;
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    background-color: black;
+}
+.nav{
+    display: flex;
+    justify-content:right;
+    
+}
+.logo{
+    width: 250px;
+    height: 90px;
+    margin-top: 170px;
+    margin-left: 520px;
+    
+    position: absolute;
+}
+
+.search textarea{
+    width: 800px;
+    height: 40px;
+    background-color: #000000;
+    border-radius: 20px;
+    margin: 250px;
+    position: absolute;
+    font-size: 25px;
+    
+}
+
+.search i{
+    width: 32px;
+    height: 21px;
+    border-left: 1px solid black; 
+    
+    padding: 16px 20px 7px 14px;
+    background: black;
+    border-radius: 0px 25px 25px 5px;
+    font-size: 22px;
+    margin-top: 251px;
+    margin-left: 988px;
+    z-index: 1;
+            
+}
+.search{
+    display: flex;
+    
+}
+.searchbutton{
+  
+    background-color: red;
+    position: relative;
+    
+    
+}
+
+
+.b1{
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-left: 500px;
+    margin-top: 40px;
+    position: absolute;
+   
+    
+    
+}
+.b2{
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-left: 650px;
+    margin-top: 40px;
+    position: absolute;
+   
+    
+    
+}
